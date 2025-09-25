@@ -1,0 +1,114 @@
+# Feeding the bots with Storyblok
+
+> A tutorial for developers interested in generating an `llms-full.txt` file using a combination of Storyblok and Astro.
+
+This file contains the complete content of the tutorial, converted into markdown.
+
+***
+
+## About
+
+This is the about page.
+
+URL: [About](https://example.com/about)
+
+***
+
+## Empty
+
+
+
+URL: [Empty](https://example.com/empty)
+
+***
+
+## First article
+
+This is the first article.
+
+URL: [First article](https://example.com/articles/first-article)
+
+***
+
+## First post
+
+I'm not an article, I'm a post.
+
+URL: [First post](https://example.com/posts/first-post)
+
+***
+
+## Home
+
+Let's start at the beginning, with a photo of a **cat**.
+
+![A ginger cat](https://a.storyblok.com/f/286418659300597/340x273/150a6ff888/ginger-cat.jpg)
+
+Teaser block
+
+## Generate meta tags
+
+The first step in making a website SEO-ready is adding `meta` tags. For best results, include a combination of standard [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta) and [Open Graph tags](https://ogp.me/).
+
+To *emphasize* the point, here's a quote:
+
+> For best results, include a combination
+
+Explain how to do it with a code snippet:
+
+```
+<main {...storyblokEditable(blok)}>
+	{
+		blok.body?.map((blok) => {
+			return <StoryblokComponent blok={blok} />;
+		})
+	}
+	<Fragment set:html={renderedRichText} />
+	
+</main>
+```
+
+The second paragraph will discuss something else. But before that, why not add an H3 heading?
+
+### Some list items
+
+Now we can continue.
+
+-   Item 1
+    
+-   Item 2
+    
+-   Item 3
+    
+
+Or an ordered list
+
+1.  One
+    
+2.  Two
+    
+3.  Three
+    
+
+Let's add another teaser blok below:
+
+A teaser
+
+We must have a table, as well
+
+| Name | Quantity |
+| --- | --- |
+| Apples | 2   |
+| Oranges | 2   |
+
+Finally, say goodbye with another cat!
+
+![](https://a.storyblok.com/f/286418659300597/340x191/8eb48cc336/european-shorthair-cat.jpg)
+
+URL: [Home](https://example.com/)
+
+***
+
+## Optional
+
+- [Homepage](https://example.com)

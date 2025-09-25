@@ -1,0 +1,23 @@
+# Feeding the bots with Storyblok
+
+> A tutorial for developers interested in generating an `llms.txt` file using a combination of Storyblok and Astro.
+
+This file contains a list of links to all relevant sections of the tutorial, serving as sitemap for LLMs.
+
+***
+
+- [About](https://example.com/about): This is a summary of the page
+- [Empty](https://example.com/empty): The page description
+- [Home](https://example.com/): A demo page that will be converted into markdown, so LLMs can skip scraping the HTML and get right down to business
+
+## Articles
+
+- [First article](https://example.com/articles/first-article): The page description
+
+## Posts
+
+- [First post](https://example.com/posts/first-post): The page description
+
+## Optional
+
+- [Homepage](https://example.com)
