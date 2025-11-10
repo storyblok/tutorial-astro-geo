@@ -15,7 +15,6 @@ dist/
 
 # frameworks
 .astro/
-.storyblok/
 
 # misc
 package-lock.json

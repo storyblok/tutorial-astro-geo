@@ -36,7 +36,8 @@ Use [`storyblok CLI`](https://github.com/storyblok/storyblok-cli) to push the [s
 Replace `SPACE_ID` with your space ID (find it under **Settings > Space**):
 
 ```shell
-storyblok components push --space SPACE_ID
+storyblok components push --space SPACE_ID --from 286418659300597
+
 ```
 
 To render a preview of the local project in the Visual Editor, follow these steps:
