@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repository is no longer maintained.
+> For a current Astro + Storyblok starter, use [blueprint-core-astro](https://github.com/storyblok/blueprint-core-astro).
+
 # Build a GEO-ready website with Storyblok and Astro
 
 This repository includes all the code necessary to follow our latest [Build a GEO-ready website with Storyblok and Astro](https://storyblok.com/tp/geo-ready-website-storyblok-astro) tutorial.
